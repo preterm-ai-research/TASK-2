@@ -1,0 +1,7 @@
+Model,Training data,Accuracy,Precision,Recall,F1-score,ROC-AUC,TN,FP,FN,TP
+Logistic Regression,Original,0.9075,0.7143,0.2123,0.3273,0.7427,1770,18,167,45
+Logistic Regression,ADASYN,0.7665,0.2465,0.5849,0.3469,0.7356,1409,379,88,124
+Decision Tree (baseline),Original,0.848,0.2982,0.3208,0.3091,0.6153,1628,160,144,68
+Decision Tree (baseline),ADASYN,0.8035,0.2181,0.3302,0.2627,0.5943,1537,251,142,70
+Decision Tree (regularized),Original,0.793,0.2694,0.5566,0.3631,0.713,1468,320,94,118
+Decision Tree (regularized),ADASYN,0.8345,0.3111,0.4623,0.3719,0.6936,1571,217,114,98

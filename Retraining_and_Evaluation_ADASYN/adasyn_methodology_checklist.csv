@@ -1,0 +1,6 @@
+Check,Passed
+"Same preprocessing pipeline: 18 features, same names and order as the saved models",Yes
+Same original train split: the ADASYN file starts with the original training set,Yes
+"Test set untouched: not resampled, fingerprint unchanged",Yes
+Same hyperparameters as the existing models (except class_weight on the regularized tree),Yes
+Saved models reproduce when refitted: Logistic Regression exact; baseline tree within tolerance (13 of 2000 test predictions differ),Yes
